@@ -1,0 +1,17 @@
+{
+    "type": "mysql",
+    "database": "happy",
+    "host": "localhost",
+    "port": 3308,
+    "username": "root",
+    "password": "",
+    "migrations": [
+        "./src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    },
+    "entities": [
+        "./src/models/*.ts"
+    ]
+}
